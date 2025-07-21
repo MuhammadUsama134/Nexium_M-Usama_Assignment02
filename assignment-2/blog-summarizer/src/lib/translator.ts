@@ -3,7 +3,6 @@ import translate from "google-translate-api-x";
 
 // Enhanced Urdu translation with a more comprehensive dictionary
 const englishToUrduDict: Record<string, string> = {
-  // --- Existing Categories (Cleaned) ---
 
   // Basic words
   the: "یہ",
@@ -47,7 +46,7 @@ const englishToUrduDict: Record<string, string> = {
   technology: "ٹیکنالوجی",
   business: "کاروبار",
   development: "ترقی",
-  important: "اہم", // Removed duplicate
+  important: "اہم",
   information: "معلومات",
   system: "نظام",
   company: "کمپنی",
@@ -62,7 +61,7 @@ const englishToUrduDict: Record<string, string> = {
   market: "بازار",
   product: "پروڈکٹ",
   quality: "معیار",
-  support: "مدد", // Removed duplicate
+  support: "مدد",
   training: "تربیت",
 
   // Education & Research
@@ -228,8 +227,6 @@ const englishToUrduDict: Record<string, string> = {
   authority: "اتھارٹی",
   public: "عوامی",
   private: "نجی",
-
-  // --- New Categories & Words ---
 
   // Connectors & Conjunctions
   also: "بھی",
